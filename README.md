@@ -1,50 +1,49 @@
-<<<<<<< HEAD
-# TodoList
-Is a handy to-do list app designed for easy task management.
-=======
-# Todolist Application Documentation
+# Todo List
 
-## Introduction
+Minimal task manager with local storage persistence, done/delete actions and tab navigation.
 
-The documentation provides information about Todolist, a simple web application that allows the user to add, delete, and manage a list of tasks. The application is created using HTML, CSS, and JavaScript.
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=flat&logo=sass&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-## Contents
+## About
 
-1. [Installation and Launch](#installation-and-launch)
-2. [Functionality Description](#functionality-description)
-3. [Code Structure](#code-structure)
+Todo List is a vanilla JavaScript task manager with a dark UI. Tasks are saved to localStorage and persist across sessions. Supports adding, completing and deleting individual tasks or all at once. Features a tab navigation between tasks and built-in documentation view.
 
-## 1. Installation and Launch
+🔗 **Live:** [todo-list](https://vergos1.github.io/todo-list/)
 
-To launch the Todolist application, follow the steps below:
+## Features
 
-- Download all application files, including the HTML file (`index.html`), CSS file (`style.css`), and JavaScript file (`index.js`).
-- Make sure you have a compatible browser (Google Chrome, Mozilla Firefox, and other modern browsers are recommended).
-- Open the `index.html` file in your browser. This will launch Todolist.
+- **Add tasks** — via input field with Enter key or Add button
+- **Complete tasks** — toggle done state with visual feedback
+- **Delete tasks** — remove single task or clear all at once
+- **LocalStorage** — tasks persist across browser sessions
+- **Tab navigation** — switch between Tasks and Documentation views
+- **Action messages** — animated feedback on every user action
+- **Responsive** — adaptive layout for mobile and desktop
 
-## 2. Functionality Description
+## Tech Stack
 
-Todolist is a simple task list management application with the following key features:
+| Technology | Purpose |
+|---|---|
+| HTML5 | Page structure |
+| SCSS | Styling |
+| JavaScript | App logic and DOM manipulation |
+| LocalStorage | Task persistence |
 
-- **Adding a Task:** Enter the name of the task in the text box and press "Enter" or the "Add" button. The task will be added to the list.
+## Getting Started
 
-- **Deleting a Task:** To delete a task, click the delete button (trash can icon) next to the task. The task will be removed from the list.
+No build step required — open directly in browser.
 
-- **Deleting All Tasks:** Click the "Delete All" button to delete all tasks from the list.
+```bash
+# Clone the repository
+git clone https://github.com/Vergos1/todo-list.git
 
-- **Task Tabs:** There are "Tasks" and "Tasks Done" tabs at the top of the app. The "Tasks" tab shows the current tasks, and the "Tasks Done" tab shows the completed tasks. Switch between tabs to see different task lists.
+# Open in browser
+open index.html
+```
 
-## 3. Code Structure
+## Author
 
-The Todolist app code is divided into three main parts: HTML (`index.html`), CSS (`style.css`), and JavaScript (`index.js`). Here is a brief description of each part:
-
-- **HTML (`index.html`):** This file contains the structure of the web page, including a text box for entering tasks, "Add" and "Delete All" buttons, and a container for displaying the task list.
-
-- **CSS (`style.css`):** This file contains the styling of web page elements to make the application attractive and user-friendly. It includes styles for the text input box, buttons, and tasks.
-
-- **JavaScript (`index.js`):** This file contains the application logic, including event handling, adding and removing tasks, storing tasks in the browser's local storage, switching between tabs, and dynamically updating the interface.
-
-We recommend familiarizing yourself with the JavaScript code (`index.js`) as it contains key application logic.
-
-The Todolist application documentation provides an overview of the application and its functionality. We hope this information helps you understand how to use and customize Todolist for your needs.
->>>>>>> 0dbfa610817b93e1d858a2586b644950264cc4a8
+Designed and developed by **Ihor Yanchuk**
+[Portfolio](https://portfolio-v3-coral-theta.vercel.app/) · [GitHub](https://github.com/Vergos1)
